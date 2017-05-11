@@ -1,0 +1,65 @@
+% !TeX spellcheck = de_DE
+\documentclass[a4paper,12pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+\lhead{19.01.2017}
+\chead{}
+\rhead{Aeromechanik}
+\begin{document}
+
+\author{Tim Voigtländer \& Nico Bauer}
+\title{Aeromechanik}
+\date{19.01.2017} 
+
+\maketitle
+\tableofcontents
+\fancypagestyle{plain}{}
+
+\newpage
+
+\section{Aufdampfen von Indium im Vakuum}
+
+In diesem Versuch war es unsere Aufgabe mithilfe eines mit Indium beschichteten Verdampferschiffchens Indium, bei verschiedenen Drücken, auf eine in geringem Abstand angebrachte Plexiglasscheibe aufzudampfen. 
+
+\subsection{Aufdampfen bei $p \leq 10^{-5}$ mbar}
+
+Zunächst nutzten wir die Drehschieberpumpe und die Turbomolekularpumpe um in der Glasglocke einen Druck von $5,9 \cdot 10^{-5}$ mbar zu erreichen.
+Anschließend legten wir einen Heizstrom von etwa 30 A an. Nach kurzer Zeitbildete sich ein gut sichtbarere Kreis auf dem Plexiglas.
+
+\begin{figure}
+	\label{fleck}
+	\centering
+	\includegraphics[width=0.8\textwidth]{Fleck_bearbeitetTim.jpg}
+	\caption{Aufgedampfte Indiumkreise: links bei $10^{-3}$ mbar rechts bei $10^{-5}$ mbar}
+\end{figure}
+
+\subsection{Aufdampfen bei höheren Drücken}
+
+Als nächstes versuchten wir das Indium bei einem Druck von $9,36\cdot 10^{-3}$ mbar aufzudampfen. Da nach etwa 10 Minuten bei einem Heizstrom von 30 A noch immer so gut wie nichts zu erkennen war beschlossen wir den Versuch an dieser Stelle abzubrechen.
+
+\subsection{Vergleich mit Ergebnissten anderer Versuchsgruppen}
+
+Mangels eigener Ergebnisse für höhere Drücke verglichen wir unsere Ergebnisse mit denen aus dem Musterprotokoll von Georg Fleig und Marcel Krause.
+
+\begin{figure}
+	\label{vergleich}
+	\centering
+	\includegraphics[width=0.8\textwidth]{Vergleichsbild_Musterprotokoll.jpg}
+	\caption{Aufgedampfte Indiumkreise bei von links nach rechts steigendem Druck\cite{Dampfen}}
+\end{figure}
+
+Wie bei unserem eigenen Experiment kann man sehen, dass mit steigendem Druck die Schärfe des Kreises abnimmt. Dieser Effekt lässt sich dadurch erklären, dass mit sinkendem Druck die mittlere Weglänge größer wird und somit die Streuung der Indiumteilchen an den Luftteilchen abnimmt. Dadurch entsteht bei niedrigem Druck ein Bild, dass sehr genau der Öffnung zum bedampfen entspricht, während bei höheren Drücken das Bild "verschmiert".
+
+\begin{thebibliography}{999}
+	\bibitem {Dampfen} Musterprotokoll: Vakuum, SS12 Georg Fleig und Marcel Krause
+\end{thebibliography}
+\end{document}
