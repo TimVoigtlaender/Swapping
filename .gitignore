@@ -1,0 +1,6 @@
+*.aux
+*.toc
+Umgebung.synctex.gz
+*.log
+Umgebung.pdf
+*.png
